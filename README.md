@@ -114,6 +114,7 @@ This is a portfolio/demo project. To avoid any privacy or confidentiality concer
 - Re-ID matching uses a linear scan against all stored identities — this does not scale well beyond a few hundred people; a vector index (e.g. FAISS) would be needed for larger deployments.
 - Activity classifier is trained on a limited, self-collected dataset and may not generalize to all environments or body types.
 - No authentication/encryption is applied to the local SQLite store — not intended for production use as-is.
+- Re-identification in this version relies solely on OSNet appearance embeddings (not facial recognition). No `dlib`/facial landmark models are required to run the current pipeline.
 
 ## License
 
