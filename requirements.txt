@@ -8,3 +8,4 @@ scikit_learn==1.9.0
 torch==2.12.1
 torchreid==0.2.5
 ultralytics==8.4.84
+opencv-python
