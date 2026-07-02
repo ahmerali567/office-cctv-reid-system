@@ -1,0 +1,10 @@
+joblib==1.5.3
+langchain_core==1.4.8
+langchain_ollama==1.1.0
+numpy==2.5.0
+ollama==0.6.2
+pandas==3.0.3
+scikit_learn==1.9.0
+torch==2.12.1
+torchreid==0.2.5
+ultralytics==8.4.84
