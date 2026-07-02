@@ -1,0 +1,24 @@
+# Database & person data - NEVER commit
+persons.db
+persons_db.json
+office_data.csv
+
+# Snapshots - contains real cropped faces of coworkers
+snapshots/
+
+# Model weights - large, license unclear, don't push blindly
+*.pth
+models/*.pt
+
+# Config - may contain RTSP URLs / credentials
+
+# Python cache/env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS junk
+.DS_Store
+models/*.dat
+models/office_action_model.pkl
